@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.22129.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. AutoPropertyEnhancements", "1. AutoPropertyEnhancements\1. AutoPropertyEnhancements.csproj", "{9B820676-7425-4F37-8B46-27BC9932D52B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. PrimaryConstructors", "2. PrimaryConstructors\2. PrimaryConstructors.csproj", "{350FCEB1-E3DD-4E1F-82A7-689959592A09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9B820676-7425-4F37-8B46-27BC9932D52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B820676-7425-4F37-8B46-27BC9932D52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B820676-7425-4F37-8B46-27BC9932D52B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{350FCEB1-E3DD-4E1F-82A7-689959592A09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{350FCEB1-E3DD-4E1F-82A7-689959592A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{350FCEB1-E3DD-4E1F-82A7-689959592A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{350FCEB1-E3DD-4E1F-82A7-689959592A09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
