@@ -1,9 +1,13 @@
 ﻿namespace _2.PrimaryConstructors
 {
-    class Program
+    using System;
+
+    internal class Program
     {
-        static void Main()
+        internal static void Main()
         {
+            var person = new Person("Nikolay", "Kostov");
+            Console.WriteLine("{0} {1}", person.FirstName, person.LastName);
         }
     }
 }
