@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1. ParametersOnClassesAndStructs.cs" />
+    <Compile Include="3. PrimaryConstructorsWithExplicitConstructors.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
