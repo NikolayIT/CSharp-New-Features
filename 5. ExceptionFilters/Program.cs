@@ -6,6 +6,29 @@ namespace _5.ExceptionFilters
     {
         internal static void Main()
         {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("ExceptionFilter");
+            Console.ResetColor();
+            ExceptionFilter();
+
+            Console.WriteLine();
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("ExceptionFilterWithLogging");
+            Console.ResetColor();
+            try
+            {
+                ExceptionFilterWithLogging.Demo();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("======== Stack trace from Main() ========");
+                Console.WriteLine(ex.StackTrace);
+            }
+        }
+
+        private static void ExceptionFilter()
+        {
             Person person = null;
             try
             {
