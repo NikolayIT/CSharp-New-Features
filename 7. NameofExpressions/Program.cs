@@ -6,6 +6,8 @@ namespace _7.NameofExpressions
     {
         internal static void Main()
         {
+            Console.WriteLine(nameof(Main));
+
             try
             {
                 var person = new Person(null, null);
@@ -14,6 +16,9 @@ namespace _7.NameofExpressions
             {
                 Console.WriteLine(ex.Message);
             }
+            
+            // This is planned but not yet implemented:
+            // Console.WriteLine(nameof(default(string).Normalize()));
         }
     }
 }
