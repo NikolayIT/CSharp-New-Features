@@ -14,6 +14,15 @@
             Console.WriteLine("{0} {1}",
                 personWithPrimaryConstructorBody.FirstName,
                 personWithPrimaryConstructorBody.LastName);
+
+            try
+            {
+                throw new BufferFullException();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Exception caught: {0}", ex.Message);
+            }
         }
     }
 }
