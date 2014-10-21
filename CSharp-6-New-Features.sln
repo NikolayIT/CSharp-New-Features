@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. PrimaryConstructors", "2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. ExpressionBodiedFunctionMembers", "3. ExpressionBodiedFunctionMembers\3. ExpressionBodiedFunctionMembers.csproj", "{280D6CE8-C003-4DFE-87E8-AF6057F8C87F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. UsingStatic", "4. UsingStatic\4. UsingStatic.csproj", "{1B76D878-2F96-4ADC-BFFD-D4FB743E6A86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{280D6CE8-C003-4DFE-87E8-AF6057F8C87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{280D6CE8-C003-4DFE-87E8-AF6057F8C87F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{280D6CE8-C003-4DFE-87E8-AF6057F8C87F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B76D878-2F96-4ADC-BFFD-D4FB743E6A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B76D878-2F96-4ADC-BFFD-D4FB743E6A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B76D878-2F96-4ADC-BFFD-D4FB743E6A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B76D878-2F96-4ADC-BFFD-D4FB743E6A86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

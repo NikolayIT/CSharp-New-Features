@@ -23,7 +23,7 @@
 
         public string LastName { get; set; }
 
-        public string Name => string.Format("{0} {1}", FirstName, LastName);
+        public string Name => FirstName + " " + LastName;
 
 		public Person this[string name] =>
 			this.Children.FirstOrDefault(
