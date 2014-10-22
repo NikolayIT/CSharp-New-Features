@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. DeclarationExpressions",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. NameofExpressions", "7. NameofExpressions\7. NameofExpressions.csproj", "{3B70B428-F759-494E-B033-A7FCAEB06788}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. NullConditionalOperators", "8. NullConditionalOperators\8. NullConditionalOperators.csproj", "{8E14046A-E779-4E7E-9392-121A07D9CF1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{3B70B428-F759-494E-B033-A7FCAEB06788}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B70B428-F759-494E-B033-A7FCAEB06788}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B70B428-F759-494E-B033-A7FCAEB06788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E14046A-E779-4E7E-9392-121A07D9CF1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E14046A-E779-4E7E-9392-121A07D9CF1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E14046A-E779-4E7E-9392-121A07D9CF1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E14046A-E779-4E7E-9392-121A07D9CF1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
