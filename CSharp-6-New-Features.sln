@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. NullConditionalOperators
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. IndexInitializers", "9. IndexInitializers\9. IndexInitializers.csproj", "{ABED5388-EF91-449B-8B0F-397C504BFBE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotImplemeted", "NotImplemeted\NotImplemeted.csproj", "{9513FAA9-4344-4B96-B7D9-98745167585B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{ABED5388-EF91-449B-8B0F-397C504BFBE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABED5388-EF91-449B-8B0F-397C504BFBE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABED5388-EF91-449B-8B0F-397C504BFBE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9513FAA9-4344-4B96-B7D9-98745167585B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9513FAA9-4344-4B96-B7D9-98745167585B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9513FAA9-4344-4B96-B7D9-98745167585B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9513FAA9-4344-4B96-B7D9-98745167585B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
