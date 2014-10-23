@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. IndexInitializers", "9. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotImplemeted", "NotImplemeted\NotImplemeted.csproj", "{9513FAA9-4344-4B96-B7D9-98745167585B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. AwaitInCatchFinally", "10. AwaitInCatchFinally\10. AwaitInCatchFinally.csproj", "{CC4E5072-1B81-4FAA-A1EB-11164DF5A38C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{9513FAA9-4344-4B96-B7D9-98745167585B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9513FAA9-4344-4B96-B7D9-98745167585B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9513FAA9-4344-4B96-B7D9-98745167585B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC4E5072-1B81-4FAA-A1EB-11164DF5A38C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4E5072-1B81-4FAA-A1EB-11164DF5A38C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4E5072-1B81-4FAA-A1EB-11164DF5A38C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4E5072-1B81-4FAA-A1EB-11164DF5A38C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
