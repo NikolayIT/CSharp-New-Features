@@ -5,13 +5,6 @@
     using System.IO;
     using System.Linq;
 
-    /* // Private protected modifier
-    public class Test
-    {
-        private protected int Age { get; set; }
-    }
-    */
-
     internal class Program
     {
         internal static void Main()
@@ -46,6 +39,14 @@
             // Instead of
             var tuple2 = new Tuple<int, string, bool>(3, "three", true);
             */
+
+            /* // Semicolon operator
+            var result = (var x = 4; Console.Write(x); x * x);
+            */
+
+            /* // String interpolation
+            var str = $"{hello}, {world}!";
+            */
         }
 
         /* // Params IEnumerable<>
@@ -73,4 +74,23 @@
             throw new NotImplementedException();
         }
     }
+
+    /* // Private protected modifier
+    public class Test
+    {
+        private protected int Age { get; set; }
+    }
+    */
+
+    /* // Constructor assignment to getter-only auto-properties
+    // http://roslyn.codeplex.com/discussions/568824
+    public class Class
+    {
+        public int P { get; }
+        public Class()
+        {
+            P = 15;
+        }
+    }
+    */
 }
