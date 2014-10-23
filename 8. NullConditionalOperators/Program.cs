@@ -27,6 +27,9 @@
             Console.WriteLine("firstOrdersCount: {0}", firstOrdersCount);
             // Equivalent to
             int? firstOrdersCount2 = (customers != null) ? (int?)customers[0].Orders.Count() : null;
+
+            // Chaining:
+            int? firstOrdersCount3 = customers?[0].Orders?.Count();
         }
     }
 }
