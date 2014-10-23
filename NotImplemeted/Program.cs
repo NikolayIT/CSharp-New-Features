@@ -1,6 +1,9 @@
 ﻿namespace NotImplemeted
 {
     using System;
+    using System.Collections.Generic;
+    using System.IO;
+    using System.Linq;
 
     /* // Private protected modifier
     public class Test
@@ -33,6 +36,41 @@
             obj["name"] = obj["first"] + " " + obj["last"];
             Console.WriteLine(obj["name"]);
             */
+
+            /* // Event initializers
+            var fsw = new FileSystemWatcher { Changed += FswCh };
+            */
+
+            /* // Constructor Inference
+            var tuple = new Tuple(3, "three", true);
+            // Instead of
+            var tuple2 = new Tuple<int, string, bool>(3, "three", true);
+            */
+        }
+
+        /* // Params IEnumerable<>
+        static decimal Avg(params IEnumerable<int> numbers)
+        {
+            int sum = 0;
+            foreach (var number in numbers)
+            {
+                sum += number;
+            }
+
+            int count = numbers.Count();
+
+            if (count == 0)
+            {
+                return 0;
+            }
+
+            return (decimal)sum / count;
+        }
+        */
+
+        private static void Fsw_Changed(object sender, FileSystemEventArgs e)
+        {
+            throw new NotImplementedException();
         }
     }
 }
