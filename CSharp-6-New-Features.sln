@@ -3,23 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.22129.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. AutoPropertyEnhancements", "1. AutoPropertyEnhancements\1. AutoPropertyEnhancements.csproj", "{9B820676-7425-4F37-8B46-27BC9932D52B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. AutoPropertyEnhancements", "1. AutoPropertyEnhancements\01. AutoPropertyEnhancements.csproj", "{9B820676-7425-4F37-8B46-27BC9932D52B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. PrimaryConstructors", "2. PrimaryConstructors\2. PrimaryConstructors.csproj", "{350FCEB1-E3DD-4E1F-82A7-689959592A09}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. PrimaryConstructors", "2. PrimaryConstructors\02. PrimaryConstructors.csproj", "{350FCEB1-E3DD-4E1F-82A7-689959592A09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. ExpressionBodiedFunctionMembers", "3. ExpressionBodiedFunctionMembers\3. ExpressionBodiedFunctionMembers.csproj", "{280D6CE8-C003-4DFE-87E8-AF6057F8C87F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. ExpressionBodiedFunctionMembers", "3. ExpressionBodiedFunctionMembers\03. ExpressionBodiedFunctionMembers.csproj", "{280D6CE8-C003-4DFE-87E8-AF6057F8C87F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. UsingStatic", "4. UsingStatic\4. UsingStatic.csproj", "{1B76D878-2F96-4ADC-BFFD-D4FB743E6A86}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. UsingStatic", "4. UsingStatic\04. UsingStatic.csproj", "{1B76D878-2F96-4ADC-BFFD-D4FB743E6A86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. ExceptionFilters", "5. ExceptionFilters\5. ExceptionFilters.csproj", "{FB7A5C8F-39DD-41DA-9DA0-F27DE2BF0604}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. ExceptionFilters", "5. ExceptionFilters\05. ExceptionFilters.csproj", "{FB7A5C8F-39DD-41DA-9DA0-F27DE2BF0604}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. DeclarationExpressions", "6. DeclarationExpressions\6. DeclarationExpressions.csproj", "{A6B9534A-1F58-4DA6-AEC7-936B7B7B960C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. DeclarationExpressions", "6. DeclarationExpressions\06. DeclarationExpressions.csproj", "{A6B9534A-1F58-4DA6-AEC7-936B7B7B960C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. NameofExpressions", "7. NameofExpressions\7. NameofExpressions.csproj", "{3B70B428-F759-494E-B033-A7FCAEB06788}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. NameofExpressions", "7. NameofExpressions\07. NameofExpressions.csproj", "{3B70B428-F759-494E-B033-A7FCAEB06788}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. NullConditionalOperators", "8. NullConditionalOperators\8. NullConditionalOperators.csproj", "{8E14046A-E779-4E7E-9392-121A07D9CF1C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. NullConditionalOperators", "8. NullConditionalOperators\08. NullConditionalOperators.csproj", "{8E14046A-E779-4E7E-9392-121A07D9CF1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. IndexInitializers", "9. IndexInitializers\9. IndexInitializers.csproj", "{ABED5388-EF91-449B-8B0F-397C504BFBE7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. IndexInitializers", "9. IndexInitializers\09. IndexInitializers.csproj", "{ABED5388-EF91-449B-8B0F-397C504BFBE7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotImplemeted", "NotImplemeted\NotImplemeted.csproj", "{9513FAA9-4344-4B96-B7D9-98745167585B}"
 EndProject
