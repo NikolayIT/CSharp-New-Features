@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>_9.IndexInitializers</RootNamespace>
-    <AssemblyName>_9.IndexInitializers</AssemblyName>
+    <AssemblyName>09.IndexInitializers</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

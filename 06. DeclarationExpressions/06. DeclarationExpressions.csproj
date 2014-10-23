@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>_6.DeclarationExpressions</RootNamespace>
-    <AssemblyName>_6.DeclarationExpressions</AssemblyName>
+    <AssemblyName>06.DeclarationExpressions</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <LangVersion>experimental</LangVersion>

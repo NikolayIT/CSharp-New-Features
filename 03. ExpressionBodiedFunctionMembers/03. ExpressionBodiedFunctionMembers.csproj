@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>_3.ExpressionBodiedFunctionMembers</RootNamespace>
-    <AssemblyName>_3.ExpressionBodiedFunctionMembers</AssemblyName>
+    <AssemblyName>03.ExpressionBodiedFunctionMembers</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

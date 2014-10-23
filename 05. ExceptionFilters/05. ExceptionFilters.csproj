@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>_5.ExceptionFilters</RootNamespace>
-    <AssemblyName>_5.ExceptionFilters</AssemblyName>
+    <AssemblyName>05.ExceptionFilters</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

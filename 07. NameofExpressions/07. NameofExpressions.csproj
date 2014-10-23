@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>_7.NameofExpressions</RootNamespace>
-    <AssemblyName>_7.NameofExpressions</AssemblyName>
+    <AssemblyName>07.NameofExpressions</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
