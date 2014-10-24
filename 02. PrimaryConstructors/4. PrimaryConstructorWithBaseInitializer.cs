@@ -1,8 +1,6 @@
-﻿namespace _2.PrimaryConstructors
-{
-    using System;
+﻿using System;
 
-    public class BufferFullException() : Exception("Buffer full")
-    {
-    }
+public class BufferFullException()
+    : Exception("Buffer full")
+{
 }

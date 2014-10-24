@@ -1,22 +1,19 @@
-﻿namespace _2.PrimaryConstructors
+﻿using System;
+
+public class PersonWithPrimaryConstructorBody(string firstName, string lastName)
 {
-    using System;
-
-    public class PersonWithPrimaryConstructorBody(string firstName, string lastName)
     {
+        if (firstName == null)
         {
-            if (firstName == null)
-            {
-                throw new ArgumentNullException("firstName");
-            }
-
-            if (lastName == null)
-            {
-                throw new ArgumentNullException("lastName");
-            }
+            throw new ArgumentNullException("firstName");
         }
 
-        public string FirstName { get; } = firstName;
-        public string LastName { get; } = lastName;
+        if (lastName == null)
+        {
+            throw new ArgumentNullException("lastName");
+        }
     }
+
+    public string FirstName { get; } = firstName;
+    public string LastName { get; } = lastName;
 }

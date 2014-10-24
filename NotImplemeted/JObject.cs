@@ -1,37 +1,34 @@
-﻿namespace NotImplemeted
+﻿using System.Collections.Generic;
+
+public class JObject
 {
-    using System.Collections.Generic;
+    private Dictionary<string, string> data;
 
-    public class JObject
+    public JObject()
     {
-        private Dictionary<string, string> data;
+        this.data = new Dictionary<string, string>();
+    }
 
-        public JObject()
+    public string this[string index]
+    {
+        get
         {
-            this.data = new Dictionary<string, string>();
-        }
-
-        public string this[string index]
-        {
-            get
+            if (!this.data.ContainsKey(index))
             {
-                if (!this.data.ContainsKey(index))
-                {
-                    this.data.Add(index, string.Empty);
-                }
-
-                return this.data[index];
+                this.data.Add(index, string.Empty);
             }
-            set
+
+            return this.data[index];
+        }
+        set
+        {
+            if (!this.data.ContainsKey(index))
             {
-                if (!this.data.ContainsKey(index))
-                {
-                    this.data.Add(index, value);
-                }
-                else
-                {
-                    this.data[index] = value;
-                }
+                this.data.Add(index, value);
+            }
+            else
+            {
+                this.data[index] = value;
             }
         }
     }

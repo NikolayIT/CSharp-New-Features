@@ -1,20 +1,17 @@
-﻿namespace _2.PrimaryConstructors
+﻿public struct Tally(int count, int sum)
 {
-    public struct Tally(int count, int sum)
+    public int Count { get; } = count;
+    public int Sum { get; } = sum;
+    public double Average
     {
-        public int Count { get; } = count;
-        public int Sum { get; } = sum;
-        public double Average
+        get
         {
-            get
+            if (Count == 0)
             {
-                if (Count == 0)
-                {
-                    return 0;
-                }
-
-                return (double)Sum / Count;
+                return 0;
             }
+
+            return (double)Sum / Count;
         }
     }
 }

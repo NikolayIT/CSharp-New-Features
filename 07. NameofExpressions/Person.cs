@@ -1,34 +1,31 @@
-﻿namespace _7.NameofExpressions
+﻿using System;
+
+public class Person
 {
-    using System;
+    private string firstName;
+    private string lastName;
 
-    public class Person
+    public Person(string firstName, string lastName)
     {
-        private string firstName;
-        private string lastName;
-
-        public Person(string firstName, string lastName)
+        if (firstName == null)
         {
-            if (firstName == null)
-            {
-                throw new ArgumentNullException(nameof(firstName));
-            }
-
-            if (lastName == null)
-            {
-                throw new ArgumentNullException(nameof(lastName));
-            }
-
-            this.firstName = firstName;
-            this.lastName = lastName;
+            throw new ArgumentNullException(nameof(firstName));
         }
 
-        public string Name
+        if (lastName == null)
         {
-            get
-            {
-                return string.Format("{0} {1}", this.firstName, this.lastName);
-            }
+            throw new ArgumentNullException(nameof(lastName));
+        }
+
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    public string Name
+    {
+        get
+        {
+            return string.Format("{0} {1}", this.firstName, this.lastName);
         }
     }
 }

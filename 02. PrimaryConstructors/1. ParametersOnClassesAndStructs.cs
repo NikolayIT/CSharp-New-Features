@@ -1,42 +1,39 @@
-﻿namespace _2.PrimaryConstructors
+﻿/// <summary>
+/// C# 6.0 Person Class with Primary Constructor
+/// </summary>
+public class Person(string firstName, string lastName)
 {
-    /// <summary>
-    /// C# 6.0 Person Class with Primary Constructor
-    /// </summary>
-    public class Person(string firstName, string lastName)
+    public string FirstName { get; set; } = firstName;
+    public string LastName { get; set; } = lastName;
+}
+
+/// <summary>
+/// C# 5.0 Person Class with Regular Constructor
+/// </summary>
+public class PersonClassCSharp5
+{
+    private string firstName;
+    private string lastName;
+
+    public PersonClassCSharp5(string first, string last)
     {
-        public string FirstName { get; set; } = firstName;
-        public string LastName { get; set; } = lastName;
+        this.firstName = first;
+        this.lastName = last;
     }
 
-    /// <summary>
-    /// C# 5.0 Person Class with Regular Constructor
-    /// </summary>
-    public class PersonClassCSharp5
+    public string FirstName
     {
-        private string firstName;
-        private string lastName;
-
-        public PersonClassCSharp5(string first, string last)
+        get
         {
-            this.firstName = first;
-            this.lastName = last;
+            return this.firstName;
         }
+    }
 
-        public string FirstName
+    public string LastName
+    {
+        get
         {
-            get
-            {
-                return this.firstName;
-            }
-        }
-
-        public string LastName
-        {
-            get
-            {
-                return this.lastName;
-            }
+            return this.lastName;
         }
     }
 }
