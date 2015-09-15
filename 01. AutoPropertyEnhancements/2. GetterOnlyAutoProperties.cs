@@ -5,7 +5,7 @@
 
     public ReadOnlyPerson()
     {
-        // In future versions the next line will be valid C# read-only propery initialization
+        // In future versions the next line will be valid C# read-only property initialization
         // this.FirstName = "test";
     }
 }
