@@ -1,7 +1,6 @@
-﻿using System.Linq;
-
-using System.Console;
-using System.Math;
+﻿using static System.Console;
+using static System.Linq.Enumerable;
+using static System.Math;
 
 internal class Program
 {
@@ -11,7 +10,6 @@ internal class Program
         WriteLine(Pow(2, 10));
 
         // Using static in combination with extension methods
-        var oddNumbersGenerator = new UsingExtensionMethodsStaticClass();
-        oddNumbersGenerator.GetOddNumbersBetween(1, 10).ToList().ForEach(WriteLine);
+        Range(1, 10).ToList().ForEach(WriteLine);
     }
 }

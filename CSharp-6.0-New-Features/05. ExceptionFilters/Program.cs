@@ -34,11 +34,11 @@ internal class Program
             string lastName = null;
             person = new Person(firstName, lastName);
         }
-        catch (ArgumentNullException ex) if (ex.ParamName == "firstName")
+        catch (ArgumentNullException ex) when (ex.ParamName == "firstName")
         {
             Console.WriteLine("First name is null");
         }
-        catch (ArgumentNullException ex) if (ex.ParamName == "lastName")
+        catch (ArgumentNullException ex) when (ex.ParamName == "lastName")
         {
             Console.WriteLine("Last name is null");
         }

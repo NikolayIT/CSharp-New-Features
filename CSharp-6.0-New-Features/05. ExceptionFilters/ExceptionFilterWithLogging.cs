@@ -8,7 +8,7 @@ public static class ExceptionFilterWithLogging
         {
             throw new NotImplementedException();
         }
-        catch (Exception ex) if (Log(ex)) { }
+        catch (Exception ex) when (Log(ex)) { }
     }
 
     /// <summary>
