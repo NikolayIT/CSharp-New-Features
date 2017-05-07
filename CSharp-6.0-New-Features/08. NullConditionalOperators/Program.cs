@@ -1,16 +1,12 @@
 ﻿using System;
 using System.Linq;
 
-/// <summary>
-/// Demonstrating Null-propagating operator ?. (a.k.a. Null-conditional Operator)
-/// More info: http://roslyn.codeplex.com/discussions/540883
-/// </summary>
-internal class Program
+public static class Program
 {
-    internal static void Main()
+    public static void Main()
     {
         Customer[] customers = null;
-        // Customer[] customers = new Customer[1] { new Customer() { Orders = new List<string> { "order1", "order2" } } };
+        //// Customer[] customers = new Customer[1] { new Customer() { Orders = new List<string> { "order1", "order2" } } };
 
         int? lengthOrNull = customers?.Length; // null if customers is null
         Console.WriteLine("lengthOrNull.HasValue: {0}", lengthOrNull.HasValue);

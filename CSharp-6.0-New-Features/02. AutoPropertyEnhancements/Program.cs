@@ -1,8 +1,8 @@
 ﻿using System;
 
-internal class Program
+public static class Program
 {
-    internal static void Main()
+    public static void Main()
     {
         // Initializers for auto-properties
         var person = new Person();

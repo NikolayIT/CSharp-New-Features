@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
 
-internal class Program
+public static class Program
 {
-    internal static void Main()
+    public static void Main()
     {
         ReadData(@"..\..\Program.cs", @"Log.txt");
         Console.ReadLine();
@@ -16,7 +16,7 @@ internal class Program
         try
         {
             var line = await input.ReadLineAsync();
-            Console.WriteLine("Line written");
+            Console.WriteLine("Line read");
         }
         catch (IOException ex)
         {
@@ -25,7 +25,7 @@ internal class Program
         }
         finally
         {
-            if (log != null) await log.FlushAsync();
+            await log.FlushAsync();
             Console.WriteLine("Log flushed");
         }
     }

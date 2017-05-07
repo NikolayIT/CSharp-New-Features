@@ -1,10 +1,10 @@
 ﻿using System;
 
-internal class Program
+public static class Program
 {
     public static void PrintTime() => Console.WriteLine("Current time: {0}", DateTime.Now.ToString());
 
-    internal static void Main()
+    public static void Main()
     {
         // 1. Expression bodies on method-like members
         Console.WriteLine("1. Expression bodies on method-like members");

@@ -2,9 +2,9 @@
 using static System.Linq.Enumerable;
 using static System.Math;
 
-internal class Program
+public static class Program
 {
-    internal static void Main()
+    public static void Main()
     {
         // Using static
         WriteLine(Pow(2, 10));

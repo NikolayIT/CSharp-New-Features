@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-internal class Program
+public static class Program
 {
-    internal static void Main()
+    public static void Main()
     {
         // C# 5.0
         var numbersOldWay = new Dictionary<int, string>

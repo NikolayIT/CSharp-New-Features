@@ -1,8 +1,8 @@
 ﻿using System;
 
-internal class Program
+public class Program
 {
-    internal static void Main()
+    public static void Main()
     {
         // Name of static method
         Console.WriteLine(nameof(Main));
@@ -25,6 +25,7 @@ internal class Program
     }
 
     public int NonStaticProperty { get; set; }
+
     public void NonStaticMethod()
     {
         Console.WriteLine(nameof(NonStaticProperty));
