@@ -21,8 +21,18 @@ public class Person
 
     public string LastName { get; set; }
 
-    public string Name => FirstName + " " + LastName;
+    // Before:
+    //// public string Name
+    //// {
+    ////     get
+    ////     {
+    ////         return this.FirstName + " " + this.LastName;
+    ////     }
+    //// }
+    // After:
+    public string Name => this.FirstName + " " + this.LastName;
 
+    // Expression for indexer body:
     public Person this[string name] =>
         this.Children.FirstOrDefault(
             x => x.Name.ToLower().Contains(name.ToLower()));

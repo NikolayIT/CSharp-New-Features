@@ -7,7 +7,7 @@ public static class Program
     public static void Main()
     {
         // Using static
-        WriteLine(Pow(2, 10));
+        WriteLine(Pow(2, 10)); // Instead of Console.WriteLine(Math.Pow(2, 10))
 
         // Using static in combination with extension methods
         Range(1, 10).ToList().ForEach(WriteLine);

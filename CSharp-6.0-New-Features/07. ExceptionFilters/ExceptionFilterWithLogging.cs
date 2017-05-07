@@ -8,13 +8,13 @@ public static class ExceptionFilterWithLogging
         {
             throw new NotImplementedException();
         }
-        catch (Exception ex) when (Log(ex)) { }
+        catch (Exception ex) when (Log(ex))
+        {
+        }
     }
 
-    /// <summary>
-    /// This method can inspect an exception “flying by” without intercepting its course.
-    /// This is a false-returning helper function which executes the side effects (logging).
-    /// </summary>
+    // This method can inspect an exception “flying by” without intercepting its course.
+    // This is a true-returning helper function which executes the side effects (logging).
     private static bool Log(Exception exception)
     {
         // Side effect (logging)
@@ -24,6 +24,6 @@ public static class ExceptionFilterWithLogging
         Console.WriteLine(exception.StackTrace);
 
         // Continue to the catch block
-        return false;
+        return true; // false, if we don't want to catch
     }
 }

@@ -28,6 +28,6 @@ public class Program
 
     public void NonStaticMethod()
     {
-        Console.WriteLine(nameof(NonStaticProperty));
+        Console.WriteLine(nameof(this.NonStaticProperty));
     }
 }

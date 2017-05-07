@@ -6,13 +6,13 @@ public static class Program
     {
         // C# 5.0
         var numbersOldWay = new Dictionary<int, string>
-            {
-               { 7, "seven" },
-               { 9, "nine" },
-               { 13, "thirteen" }
-            };
+        {
+            { 7, "seven" },
+            { 9, "nine" },
+            { 13, "thirteen" }
+        };
 
-        // C# 6.0
+        // C# 6.0+
         var numbers = new Dictionary<int, string>
         {
             [7] = "seven",
@@ -31,6 +31,7 @@ public static class Program
         {
             ["C#"] = "A programming language",
             [".NET"] = "A development platform",
+            ["CIL"] = "Lowest-level programming language used by the .NET Framework",
         };
     }
 }

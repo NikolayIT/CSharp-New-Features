@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. ExpressionBodiedFunctio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. UsingStatic", "04. UsingStatic\04. UsingStatic.csproj", "{1B76D878-2F96-4ADC-BFFD-D4FB743E6A86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. ExceptionFilters", "05. ExceptionFilters\05. ExceptionFilters.csproj", "{FB7A5C8F-39DD-41DA-9DA0-F27DE2BF0604}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. NullConditionalOperators", "08. NullConditionalOperators\08. NullConditionalOperators.csproj", "{8E14046A-E779-4E7E-9392-121A07D9CF1C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. IndexInitializers", "09. IndexInitializers\09. IndexInitializers.csproj", "{ABED5388-EF91-449B-8B0F-397C504BFBE7}"
@@ -19,9 +17,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. AutoPropertyEnhancement
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Roslyn", "01. Roslyn\01. Roslyn.csproj", "{88696B3E-3BD0-45B7-B090-0E32A40CFBB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. NameofExpressions", "06. NameofExpressions\06. NameofExpressions.csproj", "{3B70B428-F759-494E-B033-A7FCAEB06788}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. NameofExpressions", "05. NameofExpressions\05. NameofExpressions.csproj", "{3B70B428-F759-494E-B033-A7FCAEB06788}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. StringInterpolation", "07. StringInterpolation\07. StringInterpolation.csproj", "{882725AD-8AEB-4F17-9F08-DA28B78547E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. StringInterpolation", "06. StringInterpolation\06. StringInterpolation.csproj", "{882725AD-8AEB-4F17-9F08-DA28B78547E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. ExceptionFilters", "07. ExceptionFilters\07. ExceptionFilters.csproj", "{FB7A5C8F-39DD-41DA-9DA0-F27DE2BF0604}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +37,6 @@ Global
 		{1B76D878-2F96-4ADC-BFFD-D4FB743E6A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B76D878-2F96-4ADC-BFFD-D4FB743E6A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B76D878-2F96-4ADC-BFFD-D4FB743E6A86}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FB7A5C8F-39DD-41DA-9DA0-F27DE2BF0604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FB7A5C8F-39DD-41DA-9DA0-F27DE2BF0604}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FB7A5C8F-39DD-41DA-9DA0-F27DE2BF0604}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FB7A5C8F-39DD-41DA-9DA0-F27DE2BF0604}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8E14046A-E779-4E7E-9392-121A07D9CF1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8E14046A-E779-4E7E-9392-121A07D9CF1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E14046A-E779-4E7E-9392-121A07D9CF1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -69,6 +65,10 @@ Global
 		{882725AD-8AEB-4F17-9F08-DA28B78547E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{882725AD-8AEB-4F17-9F08-DA28B78547E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{882725AD-8AEB-4F17-9F08-DA28B78547E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB7A5C8F-39DD-41DA-9DA0-F27DE2BF0604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB7A5C8F-39DD-41DA-9DA0-F27DE2BF0604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB7A5C8F-39DD-41DA-9DA0-F27DE2BF0604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB7A5C8F-39DD-41DA-9DA0-F27DE2BF0604}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

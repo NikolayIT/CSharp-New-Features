@@ -1,7 +1,7 @@
 ﻿public class CodeFile<T>
 {
     #region Fields
-    private T value;
+    private readonly T value;
     #endregion
 
     #region Constructors
