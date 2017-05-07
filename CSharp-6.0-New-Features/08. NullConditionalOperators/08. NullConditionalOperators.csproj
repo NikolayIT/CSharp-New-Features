@@ -7,7 +7,7 @@
     <ProjectGuid>{8E14046A-E779-4E7E-9392-121A07D9CF1C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_8.NullConditionalOperators</RootNamespace>
+    <RootNamespace>NullConditionalOperators</RootNamespace>
     <AssemblyName>08.NullConditionalOperators</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

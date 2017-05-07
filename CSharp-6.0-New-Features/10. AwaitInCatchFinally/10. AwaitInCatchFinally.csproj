@@ -7,7 +7,7 @@
     <ProjectGuid>{CC4E5072-1B81-4FAA-A1EB-11164DF5A38C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_10.AwaitInCatchFinally</RootNamespace>
+    <RootNamespace>AwaitInCatchFinally</RootNamespace>
     <AssemblyName>10.AwaitInCatchFinally</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

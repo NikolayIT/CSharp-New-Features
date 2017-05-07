@@ -7,7 +7,7 @@
     <ProjectGuid>{1B76D878-2F96-4ADC-BFFD-D4FB743E6A86}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_4.UsingStatic</RootNamespace>
+    <RootNamespace>UsingStatic</RootNamespace>
     <AssemblyName>04.UsingStatic</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

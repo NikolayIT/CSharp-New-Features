@@ -4,9 +4,9 @@
 
     public string LastName { get; } = "Kostov";
 
-    public ReadOnlyPerson()
+    public ReadOnlyPerson(string firstName)
     {
         // This line is also valid for read-only property initialization
-        this.FirstName = "test";
+        this.FirstName = firstName;
     }
 }

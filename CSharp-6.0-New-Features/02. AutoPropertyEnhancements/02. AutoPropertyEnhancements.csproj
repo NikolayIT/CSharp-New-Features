@@ -7,8 +7,8 @@
     <ProjectGuid>{9B820676-7425-4F37-8B46-27BC9932D52B}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_1.AutoPropertyEnhancements</RootNamespace>
-    <AssemblyName>01.AutoPropertyEnhancements</AssemblyName>
+    <RootNamespace>AutoPropertyEnhancements</RootNamespace>
+    <AssemblyName>02.AutoPropertyEnhancements</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

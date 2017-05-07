@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. AutoPropertyEnhancements", "01. AutoPropertyEnhancements\01. AutoPropertyEnhancements.csproj", "{9B820676-7425-4F37-8B46-27BC9932D52B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. ExpressionBodiedFunctionMembers", "03. ExpressionBodiedFunctionMembers\03. ExpressionBodiedFunctionMembers.csproj", "{280D6CE8-C003-4DFE-87E8-AF6057F8C87F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. UsingStatic", "04. UsingStatic\04. UsingStatic.csproj", "{1B76D878-2F96-4ADC-BFFD-D4FB743E6A86}"
@@ -19,16 +17,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. IndexInitializers", "09
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. AwaitInCatchFinally", "10. AwaitInCatchFinally\10. AwaitInCatchFinally.csproj", "{CC4E5072-1B81-4FAA-A1EB-11164DF5A38C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. AutoPropertyEnhancements", "02. AutoPropertyEnhancements\02. AutoPropertyEnhancements.csproj", "{9B820676-7425-4F37-8B46-27BC9932D52B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Roslyn", "01. Roslyn\01. Roslyn.csproj", "{88696B3E-3BD0-45B7-B090-0E32A40CFBB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. StringInterpolation", "06. StringInterpolation\06. StringInterpolation.csproj", "{882725AD-8AEB-4F17-9F08-DA28B78547E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9B820676-7425-4F37-8B46-27BC9932D52B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9B820676-7425-4F37-8B46-27BC9932D52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9B820676-7425-4F37-8B46-27BC9932D52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9B820676-7425-4F37-8B46-27BC9932D52B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{280D6CE8-C003-4DFE-87E8-AF6057F8C87F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{280D6CE8-C003-4DFE-87E8-AF6057F8C87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{280D6CE8-C003-4DFE-87E8-AF6057F8C87F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -57,6 +57,18 @@ Global
 		{CC4E5072-1B81-4FAA-A1EB-11164DF5A38C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC4E5072-1B81-4FAA-A1EB-11164DF5A38C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC4E5072-1B81-4FAA-A1EB-11164DF5A38C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B820676-7425-4F37-8B46-27BC9932D52B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B820676-7425-4F37-8B46-27BC9932D52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B820676-7425-4F37-8B46-27BC9932D52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B820676-7425-4F37-8B46-27BC9932D52B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88696B3E-3BD0-45B7-B090-0E32A40CFBB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88696B3E-3BD0-45B7-B090-0E32A40CFBB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88696B3E-3BD0-45B7-B090-0E32A40CFBB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88696B3E-3BD0-45B7-B090-0E32A40CFBB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{882725AD-8AEB-4F17-9F08-DA28B78547E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{882725AD-8AEB-4F17-9F08-DA28B78547E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{882725AD-8AEB-4F17-9F08-DA28B78547E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{882725AD-8AEB-4F17-9F08-DA28B78547E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

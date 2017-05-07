@@ -7,7 +7,7 @@
     <ProjectGuid>{280D6CE8-C003-4DFE-87E8-AF6057F8C87F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_3.ExpressionBodiedFunctionMembers</RootNamespace>
+    <RootNamespace>ExpressionBodiedFunctionMembers</RootNamespace>
     <AssemblyName>03.ExpressionBodiedFunctionMembers</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
