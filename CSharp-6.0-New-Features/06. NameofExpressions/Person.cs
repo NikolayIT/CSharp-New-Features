@@ -2,8 +2,8 @@
 
 public class Person
 {
-    private string firstName;
-    private string lastName;
+    private readonly string firstName;
+    private readonly string lastName;
 
     public Person(string firstName, string lastName)
     {
@@ -21,11 +21,5 @@ public class Person
         this.lastName = lastName;
     }
 
-    public string Name
-    {
-        get
-        {
-            return string.Format("{0} {1}", this.firstName, this.lastName);
-        }
-    }
+    public string Name => string.Format("{0} {1}", this.firstName, this.lastName);
 }

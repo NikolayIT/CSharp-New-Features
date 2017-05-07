@@ -7,7 +7,7 @@ public class Program
         // Name of static method
         Console.WriteLine(nameof(Main));
 
-        // Name of paramether when creating ArgumentNullException
+        // Name of parameter when creating ArgumentNullException
         try
         {
             var person = new Person(null, null);
@@ -20,8 +20,8 @@ public class Program
         // Name of instance property
         new Program().NonStaticMethod();
 
-        // This is planned but not yet implemented:
-        // Console.WriteLine(nameof(default(string).Normalize()));
+        // Name of methods
+        Console.WriteLine(nameof(string.Empty.Normalize));
     }
 
     public int NonStaticProperty { get; set; }
