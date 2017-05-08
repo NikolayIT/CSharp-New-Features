@@ -12,7 +12,7 @@ public static class Program
         Console.WriteLine($"{nameof(names.lastName)} = {names.lastName}");
 
         // Declare 3 variables for each value
-        (string fn, string mn, string ln) = SplitNames("N K");
+        (string fn, string mn, var ln) = SplitNames("N K");
         Console.WriteLine($"{fn} {ln}");
         
         // Declare 1 variable with 3 fields
