@@ -15,8 +15,7 @@ public static class Program
 
     private static void PrintName(string name)
     {
-        var firstName = name ?? throw new ArgumentNullException();
-        Console.WriteLine(firstName);
+        Console.WriteLine(name ?? throw new ArgumentNullException());
     }
 
     public static string DoMagic() => throw new NotImplementedException();

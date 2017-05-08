@@ -6,8 +6,8 @@ public static class Program
     {
         // Deconstruct with Deconstruct() method
         var fullName = new FullName("N", "S", "K");
-        (string fn, string mn, string ln) = fullName;
-        Console.WriteLine($"{fn} {mn} {ln}");
+        (string fn, _, string ln) = fullName; // Discarding middle name
+        Console.WriteLine($"{fn} {ln}");
 
         // Deconstruct with extension method
         (int year, int month, int day) = DateTime.Now;

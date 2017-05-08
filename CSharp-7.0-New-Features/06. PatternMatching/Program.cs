@@ -22,6 +22,11 @@ public static class Program
             return;
         }
 
+        if (obj is string _) // discarding the variable
+        {
+            Console.WriteLine($"{obj} is string!");
+        }
+
         if (!(obj is int i)) // type pattern "int i"
         {
             return;
@@ -42,6 +47,9 @@ public static class Program
                 break;
             case Rectangle r:
                 Console.WriteLine($"{r.Width} x {r.Height} rectangle");
+                break;
+            case string _: // discarding the variable
+                Console.WriteLine($"{shape} is string");
                 break;
             case null:
                 throw new ArgumentNullException(nameof(shape));
