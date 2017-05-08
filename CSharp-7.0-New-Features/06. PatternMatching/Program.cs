@@ -6,7 +6,7 @@ public static class Program
     {
         PrintStars(10);
 
-        object obj = "42";
+        object obj = TheUltimateAnswer();
         if (obj is int i || (obj is string s && int.TryParse(s, out i)))
         {
             Console.WriteLine(i);
@@ -57,5 +57,10 @@ public static class Program
                 Console.WriteLine("<unknown shape>");
                 break;
         }
+    }
+
+    private static object TheUltimateAnswer()
+    {
+        return "42";
     }
 }
