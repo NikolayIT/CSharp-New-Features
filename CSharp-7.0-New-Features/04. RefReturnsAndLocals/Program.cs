@@ -18,6 +18,7 @@ public static class Program
         var oldVariable = "OLD VALUE";
         ref var newVariable = ref oldVariable; // newVariable is now pointing to oldVariable
         newVariable = "NEW VALUE";
+        Console.WriteLine($"Value of {nameof(newVariable)}: {newVariable}");
         Console.WriteLine($"Value of {nameof(oldVariable)}: {oldVariable}");
     }
 
