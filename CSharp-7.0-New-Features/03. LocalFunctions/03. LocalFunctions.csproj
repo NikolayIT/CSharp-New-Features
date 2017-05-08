@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{79C02EA4-CBC9-4758-BD04-2FB4FA4415C2}</ProjectGuid>
+    <ProjectGuid>{D0E1002F-7E19-4228-8DEC-77862480B9B9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>NumberLiteralsImprovements</RootNamespace>
-    <AssemblyName>02.NumberLiteralsImprovements</AssemblyName>
+    <RootNamespace>LocalFunctions</RootNamespace>
+    <AssemblyName>03.LocalFunctions</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
