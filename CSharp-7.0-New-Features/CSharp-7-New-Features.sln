@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. RefReturnsAndLocals", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. OutVariables", "05. OutVariables\05. OutVariables.csproj", "{9B7EB2A8-DF89-4D42-A901-001167E4D9C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. PatternMatching", "06. PatternMatching\06. PatternMatching.csproj", "{EB37DF9D-605C-49CA-9393-41C241F00C46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{9B7EB2A8-DF89-4D42-A901-001167E4D9C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B7EB2A8-DF89-4D42-A901-001167E4D9C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B7EB2A8-DF89-4D42-A901-001167E4D9C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB37DF9D-605C-49CA-9393-41C241F00C46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB37DF9D-605C-49CA-9393-41C241F00C46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB37DF9D-605C-49CA-9393-41C241F00C46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB37DF9D-605C-49CA-9393-41C241F00C46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
