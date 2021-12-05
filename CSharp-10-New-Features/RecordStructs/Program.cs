@@ -23,6 +23,11 @@ namespace RecordStructs
             // Deconstruct
             (string firstName, string lastName, DateTime birthDate) = personRecord;
             Console.WriteLine($"deconstructed personRecord: ({firstName}, {lastName}, {birthDate.ToShortDateString()})");
+
+            // Read-only record
+            var readOnlyRecord = new ReadOnlyPersonRecord("Read", "Only", DateTime.Now);
+            Console.WriteLine(readOnlyRecord);
+            // Not available: readOnlyRecord.FirstName = firstName;
         }
     }
 }
