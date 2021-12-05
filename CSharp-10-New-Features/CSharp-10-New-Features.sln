@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtherImprovements", "OtherI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpolatedStringImprovements", "InterpolatedStringImprovements\InterpolatedStringImprovements.csproj", "{F6DC0A1E-0C6D-4F29-9171-B8788C0EDD46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticAbstractInInterfaces", "StaticAbstractInInterfaces\StaticAbstractInInterfaces.csproj", "{B38FE320-78F7-441A-B95F-8435D606F4BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{F6DC0A1E-0C6D-4F29-9171-B8788C0EDD46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6DC0A1E-0C6D-4F29-9171-B8788C0EDD46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6DC0A1E-0C6D-4F29-9171-B8788C0EDD46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B38FE320-78F7-441A-B95F-8435D606F4BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B38FE320-78F7-441A-B95F-8435D606F4BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B38FE320-78F7-441A-B95F-8435D606F4BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B38FE320-78F7-441A-B95F-8435D606F4BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
