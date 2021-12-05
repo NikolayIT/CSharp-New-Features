@@ -43,24 +43,22 @@ namespace RecordTypes
         protected virtual bool PrintMembers(StringBuilder builder)
         {
             builder.Append("FirstName = ");
-            builder.Append((object?)FirstName);
+            builder.Append((object)FirstName);
             builder.Append(", LastName = ");
-            builder.Append((object?)LastName);
+            builder.Append((object)LastName);
             builder.Append(", BirthDate = ");
             builder.Append(BirthDate.ToString());
             return true;
         }
 
-        public static bool operator !=(PersonRecordDecompiled? left, PersonRecordDecompiled? right)
+        public static bool operator !=(PersonRecordDecompiled left, PersonRecordDecompiled right)
         {
             return !(left == right);
         }
 
-        public static bool operator ==(PersonRecordDecompiled? left, PersonRecordDecompiled? right)
+        public static bool operator ==(PersonRecordDecompiled left, PersonRecordDecompiled right)
         {
-#pragma warning disable CS8600 // Converting null literal or possible null value to non-nullable type.
             return (object)left == right || (left?.Equals(right) ?? false);
-#pragma warning restore CS8600 // Converting null literal or possible null value to non-nullable type.
         }
 
         public override int GetHashCode()
@@ -68,16 +66,14 @@ namespace RecordTypes
             return ((EqualityComparer<Type>.Default.GetHashCode(EqualityContract) * -1521134295 + EqualityComparer<string>.Default.GetHashCode(FirstName)) * -1521134295 + EqualityComparer<string>.Default.GetHashCode(LastName)) * -1521134295 + EqualityComparer<DateTime>.Default.GetHashCode(BirthDate);
         }
 
-        public override bool Equals(object? obj)
+        public override bool Equals(object obj)
         {
             return Equals(obj as PersonRecordDecompiled);
         }
 
-        public virtual bool Equals(PersonRecordDecompiled? other)
+        public virtual bool Equals(PersonRecordDecompiled other)
         {
-#pragma warning disable CS8600 // Converting null literal or possible null value to non-nullable type.
             return (object)this == other || ((object)other != null && EqualityContract == other!.EqualityContract && EqualityComparer<string>.Default.Equals(FirstName, other!.FirstName) && EqualityComparer<string>.Default.Equals(LastName, other!.LastName) && EqualityComparer<DateTime>.Default.Equals(BirthDate, other!.BirthDate));
-#pragma warning restore CS8600 // Converting null literal or possible null value to non-nullable type.
         }
 
         protected PersonRecordDecompiled(PersonRecordDecompiled original)

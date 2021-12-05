@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlobalAndImplicitUsings", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileScopedNamespaces", "FileScopedNamespaces\FileScopedNamespaces.csproj", "{997A03C7-CE84-4E6C-969C-1C7CB935AE60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpressionsImprovements", "LambdaExpressionsImprovements\LambdaExpressionsImprovements.csproj", "{8AB4F26D-EB11-422E-B69D-A415B236A59E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaExpressionsImprovements", "LambdaExpressionsImprovements\LambdaExpressionsImprovements.csproj", "{8AB4F26D-EB11-422E-B69D-A415B236A59E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImprovementsToStructs", "ImprovementsToStructs\ImprovementsToStructs.csproj", "{B679AD79-BC34-4C8F-B056-BFB95AB34672}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8AB4F26D-EB11-422E-B69D-A415B236A59E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AB4F26D-EB11-422E-B69D-A415B236A59E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AB4F26D-EB11-422E-B69D-A415B236A59E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B679AD79-BC34-4C8F-B056-BFB95AB34672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B679AD79-BC34-4C8F-B056-BFB95AB34672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B679AD79-BC34-4C8F-B056-BFB95AB34672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B679AD79-BC34-4C8F-B056-BFB95AB34672}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
