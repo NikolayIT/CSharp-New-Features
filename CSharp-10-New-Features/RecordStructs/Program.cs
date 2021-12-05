@@ -1,4 +1,6 @@
-﻿namespace RecordStructs
+﻿using System;
+
+namespace RecordStructs
 {
     public static class Program
     {

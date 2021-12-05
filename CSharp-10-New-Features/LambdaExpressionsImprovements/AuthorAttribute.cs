@@ -1,4 +1,6 @@
-﻿[AttributeUsage(AttributeTargets.Method)]
+﻿using System;
+
+[AttributeUsage(AttributeTargets.Method)]
 public class AuthorAttribute : Attribute
 {
     public AuthorAttribute(string name)

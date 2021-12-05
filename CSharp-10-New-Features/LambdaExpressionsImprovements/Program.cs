@@ -1,4 +1,6 @@
-﻿// Before C# 10: Action<string> write = (string s) => Console.WriteLine(s);
+﻿using System;
+
+// Before C# 10: Action<string> write = (string s) => Console.WriteLine(s);
 var write = (string s) => Console.WriteLine(s);
 write("test");
 
