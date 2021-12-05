@@ -1,4 +1,6 @@
-﻿namespace RecordTypes
+﻿using System;
+
+namespace RecordTypes
 {
     public static class Program
     {
